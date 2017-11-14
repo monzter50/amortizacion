@@ -1,0 +1,107 @@
+
+body{
+    color:black;
+    background-color: #ccc !important;
+    font-family: "PT Serif" !important;
+}
+a:hover {
+    background-color: #ddd;
+}
+button:focus{
+    outline: none !important;
+}
+a.active {
+    background-color: #6ed872 !important;
+    outline: none;
+    color: white !important;
+}
+.tablinks{
+    cursor: pointer;
+    padding: 6px 12px;
+
+}
+.img-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.forms{
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 10px 10px 5px #888888;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+h2{
+    border-bottom: 2px solid #4CAF50;
+    padding: 10px;
+}
+input{
+    background: rgba(255, 255, 255, 0);
+    width: 100%;
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid black;
+}
+input:focus{
+    background: rgba(255, 255, 255, 0);
+    width: 100%;
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid #4CAF50;
+    outline: none;
+}
+button{
+    border:none;
+    color:white;
+    background-color: #4CAF50 !important;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none; 
+    font-size: 16px;
+    cursor: pointer;
+    font-weight:bold;
+}
+/* Fade in tabs */
+.customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    display: none;
+}
+.ver{
+    display: flex !important;
+    justify-content: center !important;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+.customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
